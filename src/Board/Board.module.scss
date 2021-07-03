@@ -1,0 +1,28 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.squareOnBoard {
+    width: 12.5%;
+    height: 12.5%;
+}
+
+.boardSquare {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.boardSquare__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: .5;
+    background-color: yellow;
+}
